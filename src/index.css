@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-gray-light
+}
+
+::-webkit-scrollbar {
+  @apply w-[5px]
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-light
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-blue rounded-lg
+}
